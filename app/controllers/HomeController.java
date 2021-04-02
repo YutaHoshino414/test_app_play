@@ -17,5 +17,8 @@ public class HomeController extends Controller {
     public Result index() {
         return ok(views.html.index.render());
     }
+    public Result about() {
+        return ok(views.html.about.render());
+    }
 
 }
