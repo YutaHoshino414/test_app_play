@@ -1,4 +1,4 @@
-## java learning  
+## learning java application Framework PLAY 
 
 new project
 > $ sbt new playframework/play-java-seed.g8  

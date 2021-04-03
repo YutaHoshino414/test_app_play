@@ -17,13 +17,17 @@
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
+            <div class="container-fluid w-75">
               <a class="navbar-brand" href="/">Play Framework</a>
               <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarForm" aria-controls="navbarForm" aria-expanded="false" aria-label="ナビゲーションの切替">
                 <span class="navbar-toggler-icon"></span>
               </button>
             </div>
-            <h5 class="text-white"><a href="/about" style="text-decoration: none; color: #fff;">about</a>|<a href="/contact" style="text-decoration: none; color: #fff;">contact</a></h5>
+            <h5 class="text-white">
+                <a href="/" class="mr-5" style="text-decoration: none; color: #fff;">Home</a>
+                <a href="/about" class="mr-5" style="text-decoration: none; color: #fff;">about</a>
+                <a href="/contact" class="mr-5" style="text-decoration: none; color: #fff;">contact</a>
+            </h5>
         </nav>
         @* And here's where we render the `Html` object containing
          * the page content. *@
