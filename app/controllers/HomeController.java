@@ -20,5 +20,7 @@ public class HomeController extends Controller {
     public Result about() {
         return ok(views.html.about.render());
     }
-
+    public Result contact() {
+        return ok(views.html.contact.render());
+    }
 }
