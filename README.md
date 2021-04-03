@@ -3,7 +3,7 @@
 new project
 > $ sbt new playframework/play-java-seed.g8  
 
-run server
+run local server
 > $ sbt run  
 
 (on browser)

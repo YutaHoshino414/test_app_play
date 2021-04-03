@@ -2,36 +2,44 @@
 
 @main("Welcome to Play") {
   <div class="container">
-    <div class=" text-center">
-      <img src="@routes.Assets.versioned("images/pexels-378308.jpg")" width="100%" height="" alt="">
-    </div><hr>
-    <h4>Welcome to Play!</h4>
+    <!-- <div class="top text-center mb-5">
+      <img src="@routes.Assets.versioned("images/pexels-pixabay-459653.jpg")" width="100%" height="" alt="">
+    </div> -->
+    <h3 class="mb-3 border-bottom">My Project</h3>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla delectus quibusdam veritatis repellendus sint non. Iusto consequatur aperiam sint maiores animi cumque deleniti unde, laboriosam quae facere, sit qui reiciendis!</p>
-    <div class="row">
-      <div class="card w-25 ml-3 shadow border-secondary">
-        <div class="card-header">
-          <p>title</p>
-        </div>
-        <div class="card-body">
-          <p>Lorem ipsum dolor sit amet </p>
-        </div>
-      </div>
-      <div class="card w-25 ml-3 shadow border-secondary">
-        <div class="card-header">
-          <p>title</p>
-        </div>
-        <div class="card-body">
-          <p>Lorem ipsum dolor sit amet </p>
-        </div>
-      </div>
-      <div class="card w-25 ml-3 shadow border-secondary">
-        <div class="card-header">
-          <p>title</p>
-        </div>
-        <div class="card-body">
-          <p>Lorem ipsum dolor sit amet </p>
-        </div>
-      </div>
-    </div>
-  </div><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div id="portfolio" class="jumbotron">
+      <div class="container-fluid p-0 mb-5">
+         <div class="row">
+            <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box" type="button"  data-toggle="modal" data-target=".bd-example-modal-xl">
+                  <img class="img-fluid" src="@routes.Assets.versioned("images/4.31.58.png")" alt="" />
+                  <div class="portfolio-box-caption">
+                      <div class="project-category text-white-50">ポートフォリオ</div>
+                      <div class="project-name">My Portfolio Site</div>
+                  </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" type="button"  data-toggle="modal" data-target=".bd-example-modal-xl2">
+                    <img class="img-fluid" src="@routes.Assets.versioned("images/fukuota.png")" alt="" />
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-white-50">EC系サイト</div>
+                        <div class="project-name">服オタ[Ruby on Rails]</div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box" type="button"  data-toggle="modal" data-target=".bd-example-modal-xl3">
+                    <img class="img-fluid" src="@routes.Assets.versioned("images/4.57.35.png")" alt="" />
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-white-50">Portfolio</div>
+                        <div class="project-name">ポートフォリオ[移行中]</div>
+                    </div>
+                </a>
+            </div>
+         </div>
+       </div>
+     </div><br><br><br><br><br><br><br><br>
+  </div>
 }
